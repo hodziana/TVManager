@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ivana\\source\\repos\\TVManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|c:\\users\\ivana\\source\\repos\\tvmanager\\tvmanager\\models\\adblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|solutionrelative:tvmanager\\models\\adblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|c:\\users\\ivana\\source\\repos\\tvmanager\\tvmanager\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|solutionrelative:tvmanager\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|c:\\users\\ivana\\source\\repos\\tvmanager\\tvmanager\\models\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|solutionrelative:tvmanager\\models\\ad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|c:\\users\\ivana\\source\\repos\\tvmanager\\tvmanager\\models\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|solutionrelative:tvmanager\\models\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|c:\\users\\ivana\\source\\repos\\tvmanager\\tvmanager\\tvmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|solutionrelative:tvmanager\\tvmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|c:\\users\\ivana\\source\\repos\\tvmanager\\tvmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6E286B2B-C3FF-4658-9F57-DF2DCCB08546}|TVManager\\TVManager.csproj|solutionrelative:tvmanager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdBlock.cs",
+              "DocumentMoniker": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\Models\\AdBlock.cs",
+              "RelativeDocumentMoniker": "TVManager\\Models\\AdBlock.cs",
+              "ToolTip": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\Models\\AdBlock.cs",
+              "RelativeToolTip": "TVManager\\Models\\AdBlock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T19:16:34.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\Models\\Schedule.cs",
+              "RelativeDocumentMoniker": "TVManager\\Models\\Schedule.cs",
+              "ToolTip": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\Models\\Schedule.cs",
+              "RelativeToolTip": "TVManager\\Models\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T19:15:50.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ad.cs",
+              "DocumentMoniker": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\Models\\Ad.cs",
+              "RelativeDocumentMoniker": "TVManager\\Models\\Ad.cs",
+              "ToolTip": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\Models\\Ad.cs",
+              "RelativeToolTip": "TVManager\\Models\\Ad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T19:15:09.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\Models\\Program.cs",
+              "RelativeDocumentMoniker": "TVManager\\Models\\Program.cs",
+              "ToolTip": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\Models\\Program.cs",
+              "RelativeToolTip": "TVManager\\Models\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T18:35:40Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TVManager",
+              "DocumentMoniker": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\TVManager.csproj",
+              "RelativeDocumentMoniker": "TVManager\\TVManager.csproj",
+              "ToolTip": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\TVManager.csproj",
+              "RelativeToolTip": "TVManager\\TVManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-21T18:35:17.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\MainForm.cs",
+              "RelativeDocumentMoniker": "TVManager\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Ivana\\source\\repos\\TVManager\\TVManager\\MainForm.cs [Design]",
+              "RelativeToolTip": "TVManager\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T18:33:27.853Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
