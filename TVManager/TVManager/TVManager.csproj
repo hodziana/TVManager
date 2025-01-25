@@ -70,6 +70,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BazaTVManagerDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BlokReklama.cs" />
+    <Compile Include="RasporedBlok.cs" />
+    <Compile Include="Reklama.cs" />
+    <Compile Include="Film.cs" />
+    <Compile Include="Emisija.cs" />
+    <Compile Include="RasporedStavka.cs" />
     <Compile Include="Index.cs">
       <SubType>Form</SubType>
     </Compile>
