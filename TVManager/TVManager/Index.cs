@@ -13,7 +13,7 @@ namespace TVManager
 {
     public partial class Index : Form
     {
-        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\mario\Documents\TVManager\TVManager\TVManager\TVManager\BazaTVManager.mdf"";Integrated Security=True";
+        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ivana\source\repos\TVManager\TVManager\TVManager\BazaTVManager.mdf;Integrated Security=True";
         public Index()
         {
             InitializeComponent();
@@ -639,6 +639,10 @@ namespace TVManager
             {
                 if (emisija.Trajanje >= 60 && !ImaKoliziju(raspored, emisija.VrijemePocetka, emisija.VrijemePocetka.Add(TimeSpan.FromMinutes(10)).Add(TimeSpan.FromMinutes(emisija.Trajanje))))
                 {
+                    if (!reklameTijekomSortirane.Any())
+                    {
+                        reklameTijekomSortirane = reklame.Where(e => e.Termin == "tijekom").ToList();
+                    }
                     TimeSpan reklameVrijeme = emisija.VrijemePocetka.Add(TimeSpan.FromMinutes(emisija.Trajanje / 2));
                     int ukupnoVrijemeReklama = 0;
                     List<Reklama> odabraneReklameTijekom = new List<Reklama>();
@@ -651,13 +655,6 @@ namespace TVManager
                         }
                         catch (InvalidOperationException e)
                         {
-                            raspored.Add(new RasporedBlok
-                            {
-                                VrijemePocetka = emisija.VrijemePocetka,
-                                VrijemeZavrsetka = emisija.VrijemePocetka.Add(TimeSpan.FromMinutes(emisija.Trajanje)),
-                                Tip = "Emisija",
-                                Naziv = emisija.Naziv
-                            });
                             break;
                         }
                         if (ukupnoVrijemeReklama + prviKandidat.Trajanje > 10 * 60)
@@ -669,6 +666,8 @@ namespace TVManager
                         odabraneReklameTijekom.Add(prviKandidat);
                         reklameTijekomSortirane.Remove(prviKandidat);
                     }
+                    //MessageBox.Show(odabraneReklameTijekom.First().Naziv);
+                    //MessageBox.Show(emisija.Naziv);
 
                     var prethodnoVrijeme = reklameVrijeme;
                     foreach (var odabranaReklama in odabraneReklameTijekom)
